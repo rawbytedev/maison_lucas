@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maison Lucas | Boulangerie artisanale</title>
+    <meta name="description"
+        content="Maison Lucas, boulangerie artisanale au cœur de votre quartier. Découvrez nos pains, viennoiseries et pâtisseries faites maison.">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="Maison Lucas accueil">
+            <span class="brand-mark"><img src="images/logo-maison-lucas.jpeg" alt="Logo Maison Lucas"></span>
+            <span>
+                <b>Maison Lucas</b>
+                <small>Boulangerie Artisanale</small>
+            </span>
+        </a>
+
+        <button class="menu-toggle" aria-label="Ouvrir le menu">☰</button>
+
+        <nav>
+            <a class="active" href="index.html">Accueil</a>
+            <a href="produits.html">Nos Produits</a>
+            <a href="apropos.html">À propos</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <a class="header-cta" href="contact.html#message">Commander</a>
+    </header>
+
+    <main>
+        <section class="hero home-hero">
+            <div class="hero-content">
+                <p class="eyebrow">Le goût du vrai pain</p>
+                <h1>Maison Lucas</h1>
+                <h2>Le goût du vrai pain</h2>
+                <p>Un savoir-faire artisanal, des ingrédients de qualité et une passion du bon pain.</p>
+                <a class="btn" href="produits.html">Découvrir nos produits <span>→</span></a>
+            </div>
+        </section>
+
+        <section class="qualities">
+            <article>
+                <span>🥐</span>
+                <b>100% Artisanal</b>
+                <small>Un pain fait avec passion</small>
+            </article>
+            <article>
+                <span>✦</span>
+                <b>Ingrédients de qualité</b>
+                <small>Le meilleur pour vous</small>
+            </article>
+            <article>
+                <span>♥</span>
+                <b>Savoir-faire local</b>
+                <small>Une boulangerie près de chez vous</small>
+            </article>
+        </section>
+
+        <section class="section">
+            <div class="section-heading">
+                <span></span>
+                <h2>Nos spécialités</h2>
+                <span></span>
+            </div>
+
+            <div class="product-grid compact">
+                <a class="product-card" href="produits.html">
+                    <img src="images/baguette-artisanale.jpeg" alt="Baguette artisanale">
+                    <h3>Baguette</h3>
+                    <p>Classique, croustillante et dorée.</p>
+                </a>
+
+                <a class="product-card" href="produits.html">
+                    <img src="images/croissants.jpg" alt="Croissants dorés">
+                    <h3>Croissant</h3>
+                    <p>Feuilletée, dorée et généreuse.</p>
+                </a>
+
+                <a class="product-card" href="produits.html">
+                    <img src="images/tarte-aux-pommes.jpeg" alt="Tarte aux pommes">
+                    <h3>Tarte aux pommes</h3>
+                    <p>Un goût doux et gourmand à chaque bouchée.</p>
+                </a>
+
+                <a class="product-card" href="produits.html">
+                    <img src="images/cookies.jpeg" alt="Cookies">
+                    <h3>Cookies</h3>
+                    <p>Moelleux, fondants et parfaits à partager.</p>
+                </a>
+
+                <a class="product-card" href="produits.html">
+                    <img src="images/muffins.jpg" alt="Muffins">
+                    <h3>Muffins</h3>
+                    <p>Petites douceurs moelleuses et généreuses.</p>
+                </a>
+
+                <a class="product-card" href="produits.html">
+                    <img src="images/gateau.jpg" alt="Muffins">
+                    <h3>Gâteaux</h3>
+                    <p>Gâteaux moelleux pour vos anniversaires et fêtes.</p>
+                </a>
+            </div>
+
+            <div class="center">
+                <a class="btn btn-dark" href="produits.html">Voir tous nos produits →</a>
+            </div>
+        </section>
+
+        <section class="quote-band">
+            <span>🥐</span>
+            <em>Le plaisir du fait maison, chaque jour.</em>
+            <a class="btn" href="contact.html">Commander maintenant →</a>
+        </section>
+    </main>
+
+    <footer>
+        <span>© Maison Lucas — Boulangerie Artisanale</span>
+        <span>Fait avec passion, chaque jour.</span>
+    </footer>
+
+    <div class="chat-widget">
+        <button class="chat-launch" aria-label="Ouvrir le chatbot">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M7 18.5L3.5 21V5.5A2.5 2.5 0 0 1 6 3h12a2.5 2.5 0 0 1 2.5 2.5v9A2.5 2.5 0 0 1 18 17H7Z" />
+                <path d="M8 8h8M8 11.5h6" />
+            </svg>
+        </button>
+        <section class="chat-panel">
+            <div class="chat-head">
+                <span>🥐 <b>Maison Lucas</b></span>
+                <button class="chat-close" aria-label="Fermer le chat">×</button>
+            </div>
+
+            <div class="chat-messages">
+                <div class="bot-message">Bonjour ! 👋<br>Comment puis-je vous aider aujourd'hui ?</div>
+                <div class="quick-replies">
+                    <button type="button" data-chat="Voir les produits">Voir les produits</button>
+                    <button type="button" data-chat="Quels sont vos horaires ?">Horaires</button>
+                    <button type="button" data-chat="Où vous trouver ?">Où nous trouver ?</button>
+                </div>
+            </div>
+
+            <form class="chat-form">
+                <input type="text" aria-label="Votre message" placeholder="Écrivez votre message..." required>
+                <button type="submit" aria-label="Envoyer">➤</button>
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>

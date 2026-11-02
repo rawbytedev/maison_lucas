@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À propos | Maison Lucas</title>
+    <meta name="description"
+        content="À propos de Maison Lucas, une boulangerie artisanale qui cultive le goût du vrai pain et le savoir-faire local.">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="Maison Lucas accueil">
+            <span class="brand-mark"><img src="images/logo-maison-lucas.jpeg" alt="Logo Maison Lucas"></span>
+            <span>
+                <b>Maison Lucas</b>
+                <small>Boulangerie Artisanale</small>
+            </span>
+        </a>
+
+        <button class="menu-toggle" aria-label="Ouvrir le menu">☰</button>
+
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="produits.html">Nos Produits</a>
+            <a class="active" href="apropos.html">À propos</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <a class="header-cta" href="contact.html#message">Commander</a>
+    </header>
+
+    <main>
+        <section class="page-hero about-hero">
+            <div>
+                <h1>À propos de<br>Maison Lucas</h1>
+                <p>Une boulangerie artisanale au service de votre quotidien</p>
+            </div>
+        </section>
+
+        <section class="about-content">
+            <img src="images/atelier-boulangerie-2.jpeg" alt="Façade chaleureuse de boulangerie">
+            <div>
+                <h2>Notre histoire</h2>
+                <p>Maison Lucas est née d’une passion : celle du bon pain et du travail bien fait. Artisanale et
+                    familiale, depuis des années, nous mettons tout notre savoir-faire pour vous offrir des produits
+                    authentiques et savoureux.</p>
+
+                <h2>Nos valeurs</h2>
+                <ul class="values">
+                    <li><b>✓</b> Qualité : des ingrédients sélectionnés avec soin</li>
+                    <li><b>✓</b> Tradition : un savoir-faire artisanal</li>
+                    <li><b>✓</b> Proximité : une boulangerie à votre écoute</li>
+                </ul>
+
+                <a class="btn btn-dark" href="produits.html">Découvrir nos produits →</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <span>© Maison Lucas — Boulangerie Artisanale</span>
+        <span>Fait avec passion, chaque jour.</span>
+    </footer>
+
+    <div class="chat-widget">
+        <button class="chat-launch" aria-label="Ouvrir le chatbot">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M7 18.5L3.5 21V5.5A2.5 2.5 0 0 1 6 3h12a2.5 2.5 0 0 1 2.5 2.5v9A2.5 2.5 0 0 1 18 17H7Z" />
+                <path d="M8 8h8M8 11.5h6" />
+            </svg>
+        </button>
+        <section class="chat-panel">
+            <div class="chat-head">
+                <span>🥐 <b>Maison Lucas</b></span>
+                <button class="chat-close" aria-label="Fermer le chat">×</button>
+            </div>
+
+            <div class="chat-messages">
+                <div class="bot-message">Bonjour ! Souhaitez-vous en savoir plus sur notre histoire ? 😊</div>
+                <div class="quick-replies">
+                    <button type="button" data-chat="Nos produits">Nos produits</button>
+                    <button type="button" data-chat="Vos horaires">Nos horaires</button>
+                    <button type="button" data-chat="Nous contacter">Nous contacter</button>
+                </div>
+            </div>
+
+            <form class="chat-form">
+                <input type="text" aria-label="Votre message" placeholder="Écrivez votre message..." required>
+                <button type="submit" aria-label="Envoyer">➤</button>
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>
