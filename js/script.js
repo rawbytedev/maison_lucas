@@ -111,6 +111,11 @@ Contexte de la boulangerie:
 - Maison Lucas est une boulangerie artisanale fondée il y a plusieurs générations, avec une histoire ancrée dans le savoir-faire du pain, de la viennoiserie et des pâtisseries maison.
 - La maison a toujours privilégié les recettes traditionnelles, les ingrédients de qualité et un travail manuel soigné.
 - L’équipe valorise le service client, la convivialité et la patience pour proposer une expérience authentique.
+- Nos coordonnées
+lieux: 123 Rue du Bon Pain, Cotonou, Bénin
+tel: +229 01 23 45 67
+mail: contact@maisonlucas.bj
+Horaire: Lun – Sam : 6h à 20h
 
 Personnes clés de l’entreprise (rôles et historique):
 - BIGOT Grâce-Divine : le maître boulanger, responsable de la fabrication du pain et des recettes traditionnelles.
